@@ -6,7 +6,7 @@
 	<artifactId>pinary</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>Pinary</name>
-	<description>Binary and others numeral systems converter for computer science lessons</description>
+	<description>Binary and other numeral systems converter for computer science lessons</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
