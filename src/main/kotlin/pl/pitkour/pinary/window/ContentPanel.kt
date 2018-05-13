@@ -93,7 +93,7 @@ class ContentPanel : JPanel()
 
 		private fun fromDecimal()
 		{
-			val number = Integer.parseInt(this@ContentPanel.inputField.text)
+			val number = this@ContentPanel.inputField.text.toLong()
 			val radix = this@ContentPanel.radixSpinner.value as Int
 			val result = Converter.convertFromDecimal(number, radix)
 			this@ContentPanel.outputField.text = result.joinToString("")
